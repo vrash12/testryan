@@ -1,0 +1,1 @@
+<x-app-layout role="admin" :navigation="config('nestcrafters.navigation.admin')" title="Edit template"><div class="max-w-3xl"><h1 class="page-title">Edit template</h1><x-card class="mt-7"><x-feedback />@include('admin.templates._form', ['template' => $template])</x-card></div></x-app-layout>

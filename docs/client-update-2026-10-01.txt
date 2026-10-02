@@ -1,0 +1,5 @@
+Hi,
+
+Today I improved the NestCrafters admin and contractor dashboards, refined the navigation and mobile layouts, and added the supplied mascot logo. I also added a notification inbox, email preferences, admin email-delivery tracking and retries, reversible contractor blocking, and staged insurance reminders.
+
+All 120 automated tests are passing. The updates are available in the local development version. The live website remains unchanged. Next are the remaining device checks, production email setup, and deployment preparation after review.

@@ -1,0 +1,3 @@
+<x-app-layout role="admin" :navigation="config('nestcrafters.navigation.admin')" title="Edit contractor">
+    <div class="max-w-4xl"><p class="page-eyebrow">Contractors</p><h1 class="page-title">Edit {{ $contractor->first_name }} {{ $contractor->last_name }}</h1><p class="mt-3 leading-7 text-stone-600">Profile or service changes return this contractor to admin review.</p><x-card class="mt-7"><x-feedback />@include('admin.contractors._form', ['action' => route('admin.contractors.update', $contractor), 'cancelUrl' => route('admin.contractors.show', $contractor), 'submitLabel' => 'Save changes'])</x-card></div>
+</x-app-layout>

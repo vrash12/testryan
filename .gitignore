@@ -1,0 +1,9 @@
+# Private references and exports must never be committed or deployed.
+/nestcrafters_codebase/
+/nestcrafters_database.sql
+/nestcrafters_codebase.zip
+/download_codebase.py
+/inspect_system.py
+*.sql
+*.log
+/.local/
